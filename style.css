@@ -1,0 +1,60 @@
+.container-one{
+    background-image: url("tree-736881_1280.jpg");
+    min-height: 100%;
+}
+.container-two{
+    background-image: url("books-2596809_1920.jpg");
+    min-height: 100%;
+}
+.container-three{
+    background-image: url("night-4702174_1920.jpg");
+    min-height: 100%;
+  }
+.container-four{
+    background-image: url("smiley-427160_1920.jpg");
+    min-height: 100%;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+    color: #777;
+    height: 100%;
+    font: 500 15px/1.8 "arial";
+
+  }
+  .container-one , .container-two , .container-three ,.container-four{
+    position:relative;
+    opacity:0.83;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+   color: #000;
+    text-align:center;
+    text-align: justify;
+  }
+  .contain{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+      
+  }
+  .contain span.topic{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .parallax-one , .parallax-two, .parallax-three{
+    position: relative;
+  }
+
+  
